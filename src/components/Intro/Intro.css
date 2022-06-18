@@ -79,6 +79,10 @@
   padding: 0;
 }
 
+.main__image {
+  height: 400px;
+}
+
 /* blur */
 .blur {
   position: absolute;
