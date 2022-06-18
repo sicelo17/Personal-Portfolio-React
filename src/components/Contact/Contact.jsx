@@ -10,12 +10,14 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    const serviceID = "service_fcgopzb";
+
+
     emailjs
       .sendForm(
-        "service_2mu5xtl",
-        "template_m5udu2c",
+        "template_dn7t7jo",
         form.current,
-        "VLwg1ltOWvnCYAiK_"
+        "user_WhxrIfH6OrCwi5owOL8bL"
       )
       .then(
         (result) => {
