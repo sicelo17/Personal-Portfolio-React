@@ -11,11 +11,13 @@ const Contact = () => {
     e.preventDefault();
 
     const serviceID = "service_fcgopzb";
+    const templateID = "template_dn7t7jo";
 
 
     emailjs
       .sendForm(
-        "template_dn7t7jo",
+        serviceID,
+        templateID,
         form.current,
         "user_WhxrIfH6OrCwi5owOL8bL"
       )
