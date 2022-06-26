@@ -26,11 +26,11 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <spane>
+        <span>
           I have a wide range of skills in software development, and 
           <br />
           I always look forward to work with the best clients
-        </spane>
+        </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>

@@ -48,6 +48,10 @@
 .i-icons > *:hover {
   cursor: pointer;
 }
+
+.i-icons img {
+  height: 3rem;
+}
 /* right side styling */
 .i-right {
   flex: 1;
