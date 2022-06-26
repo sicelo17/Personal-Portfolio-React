@@ -10,6 +10,7 @@ import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
+import Twitter from "@iconscout/react-unicons/icons/uil-twitter"
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -47,6 +48,9 @@ const Intro = () => {
           </a>
           <a href="https://www.instagram.com/i.am.sicelo/">
           <img src={Instagram} alt="" />
+          </a>
+          <a href="https://twitter.com/sitsha_sicelo">
+<Twitter color="#FCA61F" size={"3rem"}/>
           </a>
         </div>
       </div>
