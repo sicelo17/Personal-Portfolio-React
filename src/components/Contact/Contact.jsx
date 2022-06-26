@@ -10,8 +10,8 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    const serviceID = "service_fcgopzb";
-    const templateID = "template_dn7t7jo";
+    const serviceID = "service_gqm6gqc";
+    const templateID = "template_avqqvmj";
 
 
     emailjs
@@ -19,13 +19,13 @@ const Contact = () => {
         serviceID,
         templateID,
         form.current,
-        "user_WhxrIfH6OrCwi5owOL8bL"
+        "T9NuTGOPdRGqGHjkf"
       )
       .then(
         (result) => {
           console.log(result.text);
           setDone(true);
-          form.reset();
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
@@ -50,8 +50,8 @@ const Contact = () => {
       {/* right side form */}
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" className="user"  placeholder="Name"/>
-          <input type="email" name="user_email" className="user" placeholder="Email"/>
+          <input type="text" name="name" className="user"  placeholder="Name"/>
+          <input type="email" name="email" className="user" placeholder="Email"/>
           <textarea name="message" className="user" placeholder="Message"/>
           <input type="submit" value="Send" className="button"/>
           <span>{done && "Thanks for Contacting me"}</span>
