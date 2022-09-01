@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Portfolio.css";
-import { Swiper, SwiperSlide } from "swiper/react"
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import CryptoApp from "../../img/crytoapp.png";
 import TodoApp from "../../img/todoapp.png";
@@ -15,7 +15,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
+      <span style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
       <span>Portfolio</span>
 
       {/* slider */}
@@ -26,22 +26,34 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={CryptoApp} alt="" />
+          <a href="https://cryptoapplication.netlify.app">
+            <img src={CryptoApp} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
+          <a href="https://todo-app-three-mu.vercel.app/">
           <img src={TodoApp} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
+          <a href="https://musicapp-xi.vercel.app/#/">
           <img src={MusicApp} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={PortfolioApp} alt="" />
+         <a href="https://sicelositsha.netlify.app/">
+         <img src={PortfolioApp} alt="" />
+         </a>
         </SwiperSlide>
         <SwiperSlide>
+          <a href="https://kwingy.com/">
           <img src={Kwingy} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Farmhut} alt="" />
+         <a href="https://farmhutafrica.com/">
+         <img src={Farmhut} alt="" />
+         </a>
         </SwiperSlide>
       </Swiper>
     </div>
