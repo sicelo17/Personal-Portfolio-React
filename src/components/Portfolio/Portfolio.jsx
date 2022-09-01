@@ -2,10 +2,12 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
+import CryptoApp from "../../img/crytoapp.png";
+import TodoApp from "../../img/todoapp.png";
+import PortfolioApp from "../../img/portfolio.png";
 import MusicApp from "../../img/musicapp.png";
+import Kwingy from "../../img/kwingy.png";
+import Farmhut from "../../img/farmhut.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -24,16 +26,22 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <img src={CryptoApp} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <img src={TodoApp} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={MusicApp} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <img src={PortfolioApp} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Kwingy} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Farmhut} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>
