@@ -25,14 +25,9 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <span>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
-            <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
+            I have worked and used services from these companies and
+            <br/>
+             I am confident to work with them again
           </span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
