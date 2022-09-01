@@ -5,6 +5,12 @@
   position: relative;
   margin-top: -7rem;
 }
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
 .f-content {
   position: absolute;
   display: flex;
