@@ -8,6 +8,7 @@ import PortfolioApp from "../../img/portfolio.png";
 import MusicApp from "../../img/musicapp.png";
 import Kwingy from "../../img/kwingy.png";
 import Farmhut from "../../img/farmhut.png";
+import WeFarm from "../../img/wefarm.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -26,34 +27,42 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
+          <a href="https://kwingy.com/">
+            <img src={Kwingy} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://farmhutafrica.com/">
+            <img src={Farmhut} alt="" />
+          </a>
+        </SwiperSlide>
+
+        <SwiperSlide>
           <a href="https://cryptoapplication.netlify.app">
             <img src={CryptoApp} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
+          <a href="https://wefarminc.netlify.app">
+            <img src={WeFarm} alt="" />
+          </a>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <a href="https://sicelositsha.netlify.app/">
+            <img src={PortfolioApp} alt="" />
+          </a>
+        </SwiperSlide>
+
+        <SwiperSlide>
           <a href="https://todo-app-three-mu.vercel.app/">
-          <img src={TodoApp} alt="" />
+            <img src={TodoApp} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
           <a href="https://musicapp-xi.vercel.app/#/">
-          <img src={MusicApp} alt="" />
+            <img src={MusicApp} alt="" />
           </a>
-        </SwiperSlide>
-        <SwiperSlide>
-         <a href="https://sicelositsha.netlify.app/">
-         <img src={PortfolioApp} alt="" />
-         </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://kwingy.com/">
-          <img src={Kwingy} alt="" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-         <a href="https://farmhutafrica.com/">
-         <img src={Farmhut} alt="" />
-         </a>
         </SwiperSlide>
       </Swiper>
     </div>
