@@ -10,6 +10,7 @@ import Kwingy from "../../img/kwingy.png";
 import Farmhut from "../../img/farmhut.png";
 import WeFarm from "../../img/wefarm.png";
 import Selmor from "../../img/selmorsite.png";
+import invoice from "../../img/invoice.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -32,6 +33,14 @@ const Portfolio = () => {
             <img src={Kwingy} alt="" />
           </a>
         </SwiperSlide>
+
+        <SwiperSlide>
+          <a href="https://invoice-vue-app.netlify.app/">
+            <img src={invoice} alt="" />
+          </a>
+        </SwiperSlide>
+
+
         <SwiperSlide>
           <a href="https://farmhut.online/">
             <img src={Farmhut} alt="" />
