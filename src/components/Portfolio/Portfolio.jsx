@@ -9,6 +9,7 @@ import MusicApp from "../../img/musicapp.png";
 import Kwingy from "../../img/kwingy.png";
 import Farmhut from "../../img/farmhut.png";
 import WeFarm from "../../img/wefarm.png";
+import Selmor from "../../img/selmorsite.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -32,8 +33,14 @@ const Portfolio = () => {
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://farmhutafrica.com/">
+          <a href="https://farmhut.online/">
             <img src={Farmhut} alt="" />
+          </a>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <a href="https://dev-selmorsite.pantheonsite.io/">
+            <img src={Selmor} alt="" />
           </a>
         </SwiperSlide>
 
