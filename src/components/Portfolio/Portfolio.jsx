@@ -42,7 +42,7 @@ const Portfolio = () => {
 
 
         <SwiperSlide>
-          <a href="https://farmhut.online/">
+          <a href="https://farmhutafrica.com/">
             <img src={Farmhut} alt="" />
           </a>
         </SwiperSlide>
