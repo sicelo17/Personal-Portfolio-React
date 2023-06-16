@@ -28,11 +28,11 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
-        {/* <SwiperSlide>
-          <a href="https://kwingy.com/">
+        <SwiperSlide>
+          <a href="https://kwingy.co.zw/">
             <img src={Kwingy} alt="" />
           </a>
-        </SwiperSlide> */}
+        </SwiperSlide>
 
         <SwiperSlide>
           <a href="https://invoice-vue-app.netlify.app/">
@@ -47,11 +47,11 @@ const Portfolio = () => {
           </a>
         </SwiperSlide>
 
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <a href="https://dev-selmorsite.pantheonsite.io/">
             <img src={Selmor} alt="" />
           </a>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
         <SwiperSlide>
           <a href="https://cryptoapplication.netlify.app">
