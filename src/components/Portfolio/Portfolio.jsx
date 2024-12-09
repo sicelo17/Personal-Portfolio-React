@@ -6,9 +6,10 @@ import CryptoApp from "../../img/crytoapp.png";
 import TodoApp from "../../img/todoapp.png";
 import PortfolioApp from "../../img/portfolio.png";
 import MusicApp from "../../img/musicapp.png";
-import Kwingy from "../../img/kwingy.png";
+import NdasendaPay from "../../img/ndasendaPay.png";
 import Farmhut from "../../img/farmhut.png";
 import WeFarm from "../../img/wefarm.png";
+import Properties from "../../img/propertyQuest.png";
 import Selmor from "../../img/selmorsite.png";
 import invoice from "../../img/invoice.png";
 import { themeContext } from "../../Context";
@@ -29,8 +30,8 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <a href="https://kwingy.co.zw/">
-            <img src={Kwingy} alt="" />
+          <a href="https://pay.ndasenda.co.zw/">
+            <img src={NdasendaPay} alt="" />
           </a>
         </SwiperSlide>
 
@@ -40,10 +41,15 @@ const Portfolio = () => {
           </a>
         </SwiperSlide>
 
-
         <SwiperSlide>
           <a href="https://farmhutafrica.com/">
             <img src={Farmhut} alt="" />
+          </a>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <a href="https://properties.wcyber.net/">
+            <img src={Properties} alt="" />
           </a>
         </SwiperSlide>
 
